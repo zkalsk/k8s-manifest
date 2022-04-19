@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: wlffjaso/test:v1.0
+        image: wlffjaso/test:v1.1
         ports:
         - containerPort: 80
 ---
