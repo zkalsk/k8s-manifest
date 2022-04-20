@@ -6,6 +6,9 @@ resources:
 - service.yaml
 
 images:
+- name: flask
+  newName: wlffjaso/test-cicd
+  newTag: v1.2
 - name: nginx
   newName: 491818659652.dkr.ecr.ap-northeast-2.amazonaws.com/nginx
   newTag: v1.1
